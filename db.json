@@ -1,0 +1,10 @@
+{
+    "courses": [
+      { "id": 1, "title": "Spring Boot / Angular", "price": "350 DT/Month", "imageUrl": "assets/SpringBoot.png" },
+      { "id": 2, "title": "Node JS / React", "price": "350 DT/Month", "imageUrl": "assets/NodeJS-React.jpg" },
+      { "id": 3, "title": "Flutter/ Firebase", "price": "350 DT/Month", "imageUrl": "assets/flutter.png" },
+      { "id": 4, "title": "Business Intelligence", "price": "350 DT/Month", "imageUrl": "assets/bi.jpeg" },
+      { "id": 5, "title": "Artificial Intelligence", "price": "350 DT/Month", "imageUrl": "assets/ai.jpg" },
+      { "id": 6, "title": "Devops", "price": "350 DT/Month", "imageUrl": "assets/Devops.jpg" }
+    ]
+  }

@@ -1,0 +1,52 @@
+.contact-form {
+    background-color: rgb(255, 183, 0); /* Yellow background */
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    text-align: center;
+    width: 40%;
+    margin: 25px auto; /* Center the form horizontally */
+}
+
+.contact-form h2 {
+    color: #333; /* Dark gray title */
+    margin-bottom: 25px;
+}
+
+.contact-form label {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    align-items: flex-start; /* Align label to the left */
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px; /* Space between label and input */
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 100px; /* Adjust textarea height as needed */
+}
+
+.contact-form button {
+    background-color: #c30065; /* Pink button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.contact-form button:hover {
+   
+    transition: 1s ease-in-out;
+  background: #834e25;
+}

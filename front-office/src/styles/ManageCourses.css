@@ -1,0 +1,50 @@
+/* ManageCourses.css */
+.container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .editButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }

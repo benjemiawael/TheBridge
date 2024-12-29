@@ -1,0 +1,20 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #4CAF50;}

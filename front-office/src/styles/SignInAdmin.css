@@ -1,0 +1,51 @@
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff; /* Assurez-vous que l'arrière-plan est blanc */
+    color: #333; /* Texte visible */
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.form-outline {
+    margin-bottom: 20px; /* Assurez un espacement suffisant */
+}
+
+.card-body {
+    padding: 40px; /* Ajoutez plus d'espace interne pour l'esthétique */
+}
+
+button.btn {
+    display: block;
+    width: 100%; /* Bouton pleine largeur */
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #333; /* Couleur du bouton */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #555;
+}
+input {  
+    width: 100%;  
+    padding: 12px;  
+    margin-bottom: 15px;  
+    border: 1px solid #ccc;  
+    border-radius: 6px;  
+    font-size: 16px;  
+}
